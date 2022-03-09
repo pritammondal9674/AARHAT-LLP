@@ -137,9 +137,7 @@ header h2{
     padding: 20px;
 } */
 @media screen and (max-width:1000px){
-    body{
-        background-color: blue;
-    }
+    
     
     .box-i{
         
