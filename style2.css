@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: Poppins; */
+    font-family: 'Amaranth', sans-serif;
+    
+
+}
+
+
+body header input{
+    border: none;
+    
+    border-radius: 23px;
+    background-color: rgb(190, 185, 185);
+    padding: 4px 0px ;
+}
+body header input:hover{
+    border: none;
+    
+    border-radius: 23px;
+    background-color: rgb(190, 185, 185);
+    
+    padding: 4px 0px ;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 3%;
+}
+
+header h2{
+    cursor: pointer;
+    font-size: 2rem;
+
+}
+
+#togglemenu{
+    display: none;
+}
+
+.options{
+    list-style: none;
+    padding-top: 30px;
+    /* text-decoration: none; */
+}
+.options li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 1.4rem;
+    
+    
+
+}
+
+.profilee{
+    height: 23px;
+    /* padding-top: 10px; */
+}
+
+.options li a{
+    
+    color: black;
+    text-decoration: none;
+  padding: 10px 15px;
+    font-size: 1.2rem;
+}
+.options li a:hover{
+    
+    color: black;
+    text-decoration: none;
+    background-color: #7176DD;
+     border-radius:10px;
+    color: white;
+    
+
+    font-size: 1.2rem;
+}
+
+.box-i{
+    padding-right: 150px;
+    padding-top: 170px;
+    float: right;
+    color: white;
+}
+.box-i h1{
+    font-size: 4rem;
+}
+
+#home-i{
+    background: url('./img/meet1.jpg') no-repeat center center/cover;
+    height: 400px;
+    z-index: -1;
+}
+#home-ii{
+    background-color: rgb(214, 240, 237);
+    height: 1000px;
+}
+.box-ii{
+    padding-top: 50px;
+    display: grid;
+    grid-template-areas: 
+    'box-iii box-iii'
+    'box-iii box-iii';
+    grid-gap: 6rem;
+    justify-content: center;
+    padding-top: 200px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.box-iii{
+    /* background-color: blue; */
+    background-color: white;
+    padding:120px;
+    padding:  120px 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset -10px -12px 20px #FFFFFF;
+    border-radius: 10px;
+    
+}
+.image{
+    margin-top: -173px;
+    margin-left: -103px;
+    
+}
+.ull{
+    padding: 5px 10px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+/* .ull li{
+    padding: 20px;
+} */
+@media screen and (max-width:1000px){
+    body{
+        background-color: blue;
+    }
+    
+    .box-i{
+        
+        padding-left: 150px;
+        color: white;
+    }
+    .box-ii{
+        display: grid;
+    grid-template-areas: 
+    'box-iii'
+    'box-iii'
+    'box-iii'
+    'box-iii';
+    }
+    #home-ii{
+        height:auto;
+    }
+    .box-iii{
+       
+        font-size: smaller;
+    }
+    .image{
+        margin-top: -163px;
+        margin-left: -73px;
+        
+    }
+    header div img{
+        height: 80px;
+    }
+}
+@media screen and (max-width:440px){
+   
+    .box-i{
+       
+        padding-left: 20px;
+        color: white;
+    }
+    .box-i h1{
+        font-size: 1.4rem;
+    }
+    .image{
+        margin-top: -193px;
+        margin-left: -3px;
+        
+    }
+}
